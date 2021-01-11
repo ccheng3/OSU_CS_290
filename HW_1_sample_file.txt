@@ -2,3 +2,9 @@ This is a example file for Homework 1.
 
 Adding a second line to test SSH key authentication when pushing 
 change to Git. 
+
+Second line addition still required username and password b/c 
+the repo's url was not switched from HTTPS to SSH. 
+
+I have made the switch and so these lines 3 and 4 should push without need 
+for username and password. 
