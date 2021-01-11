@@ -1,1 +1,4 @@
 This is a example file for Homework 1. 
+
+Adding a second line to test SSH key authentication when pushing 
+change to Git. 
