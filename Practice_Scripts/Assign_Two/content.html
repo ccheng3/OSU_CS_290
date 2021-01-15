@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Two</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p class=table_label>
+        Which Apex Legend wins in a 1 vs. 1 fight?
+        Cell content indicates the fight outcome of the Legend in the row entry
+    </p>
+    <table id="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Wraith</th>
+                <th>Pathfinder</th>
+                <th>Bangalore</th>
+                <th>Horizon</th>
+                <th>Lifeline</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class=row_legend>
+                <td class="legend_name">Crypto</td>
+                <td>Total Loss</td>
+                <td>Minor Loss</td>
+                <td>Total Loss</td>
+                <td>Total Loss</td>
+                <td>Minor Loss</td>
+            </tr>
+            <tr class=row_legend>
+                <td class="legend_name">Rampart</td>
+                <td>Total Loss</td>
+                <td>Total Loss</td>
+                <td>Total Loss</td>
+                <td>Total Loss</td>
+                <td>Total Loss</td>
+            </tr>
+            <tr class=row_legend>
+                <td class="legend_name">Loba</td>
+                <td>Minor Loss</td>
+                <td>Minor Loss</td>
+                <td>Minor Loss</td>
+                <td>Minor Loss</td>
+                <td>Total Victory</td>
+            </tr>
+            <tr class=row_legend>
+                <td class="legend_name">Mirage</td>
+                <td>Total Loss</td>
+                <td>Total Loss</td>
+                <td>Total Loss</td>
+                <td>Total Loss</td>
+                <td>Minor Victory</td>
+            </tr>
+            <tr class=row_legend>
+                <td class="legend_name">Wattson</td>
+                <td>Total Loss</td>
+                <td>Total Loss</td>
+                <td>Total Loss</td>
+                <td>Total Loss</td>
+                <td>Total Loss</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Footer 1</td>
+                <td colspan="4">Footer 2</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Conclusion: Not surprising since Wraith, Pathfinder, Bangalore,
+        and Horizon all have movement-based abilities and can therefore
+        easily out-maneuver their opponents in any 1 vs. 1 fight.
+    </p>
+
+    <dl>
+        <dt>Strongest Apex Legend</dt>
+        <dd>Wraith</dd>
+
+        <dt>Largest Apex Legend</dt>
+        <dd>Gibraltar</dd>
+
+        <dt>Weakest Apex Legend</dt>
+        <dd>Wattson</dd>
+    </dl>
+
+    <div class="outer-content">
+        <div class="inner-content">Div inside a div.</div>
+    </div>
+
+    <div>
+        <label for="GET_form">Some GET data</label>
+        <form id="GET_form"
+            action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php"
+            method="GET">
+            <p>
+                <label for="text_value">Text goes here:</label>
+                <input type="text" name="text_input" id="text_value">
+            </p>
+            <p>
+                <label for="number_value">Number goes here:</label>
+                <input type="number" name="numerical_input" id="number_value">
+            </p>
+            <p>
+                <label for="password_value">Password goes here:</label>
+                <input type="password" name="password_input" id="password_value">
+            </p>
+            <p>
+            <p>Select between:</p>
+            <input type="radio" id="snickers" name="candy" value="snickers">
+            <label for="snickers"> Snickers</label>
+            <input type="radio" id="skittles" name="candy" value="skittles">
+            <label for="skittles"> Skittles</label>
+            <input type="radio" id="mentos" name="candy" value="mentos">
+            <label for="mentos"> Mentos</label>
+            </p>
+            <p>
+                <button>Submit</button>
+            </p>
+        </form>
+
+        <label for="POST_form">Some POST data</label>
+        <form id="POST_form"
+            action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php"
+            method="POST">
+            <p>
+                <label for="text_value">Text goes here:</label>
+                <input type="text" name="text_input" id="text_value">
+            </p>
+            <p>
+                <label for="number_value">Number goes here:</label>
+                <input type="number" name="numerical_input" id="number_value">
+            </p>
+            <p>
+                <label for="password_value">Password goes here:</label>
+                <input type="password" name="password_input" id="password_value">
+            </p>
+            <p>
+            <p>Select between:</p>
+            <input type="radio" id="snickers" name="candy" value="snickers">
+            <label for="snickers"> Snickers</label>
+            <input type="radio" id="skittles" name="candy" value="skittles">
+            <label for="skittles"> Skittles</label>
+            <input type="radio" id="mentos" name="candy" value="mentos">
+            <label for="mentos"> Mentos</label>
+            </p>
+            <p>
+                <button>Submit</button>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>

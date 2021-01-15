@@ -1,0 +1,28 @@
+Everything so far is pretty easy to understand once you
+Google search for an explanation.
+
+Since there's so many elements, it's not feasible to 
+memorize each one so just remember what you CAN do 
+with HTML and search up the exact functionalities.
+
+- HTML tables should NOT be used for styling, that is
+better done with CSS. The HTML table should only be used
+for ACTUAL situations where a tabular format to display
+data/information is warranted.
+
+HTML Forms:
+- Always use input labels, and especially if the web-app
+will be RELEASED to the public for production-use. 
+    - two big benefits to using input labels; first is 
+    that it increases accessibility b/c the input element
+    can now be manipulated when you click on the input
+    label (really important for users with bad vision and
+    those on mobile device)
+        - radio buttons activated when associated label 
+        is clicked, username/password input text boxes
+        activated likewise. 
+        - associates the input element to the label so
+        a screenreader will understand what data should
+        be entered. 
+
+HTML Form Buttons:

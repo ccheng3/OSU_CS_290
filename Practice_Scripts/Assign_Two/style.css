@@ -1,0 +1,51 @@
+table, th, td {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid maroon;
+    border-spacing: 0;
+    text-align: center;
+  }
+
+.table_label {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+/* table first col header cells have
+italic text */
+.legend_name {
+    font-style: italic;
+}
+
+/* The non-header rows have alternate colors */
+.row_legend:nth-of-type(even) {
+    background-color: #fa255e;
+}
+.row_legend:nth-of-type(odd) {
+    background-color: #c39ea0;
+}
+
+/* used Flexbox to center a div within a
+div w/ reference: 
+https://blog.hubspot.com/website/center-div-css*/
+.outer-content {
+    margin-top: 20px;
+    background-color: pink;
+    width: 75%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-content {
+    background-color: #34abeb;
+    vertical-align: middle;
+    text-align: center;
+    width: 75%;
+    display: inline-block;
+}

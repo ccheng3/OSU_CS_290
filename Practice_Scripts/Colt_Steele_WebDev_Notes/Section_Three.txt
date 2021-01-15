@@ -1,0 +1,18 @@
+HTML skeleton template has shortcut key --> press exclamation mark then Tab
+in a .HTML document to auto-generate
+
+VSCode auto-format to make the doc formatted NICELY. --> go to command palette, 
+search for "format document" then press enter
+(control+shift+p for command palette, ctrl+shift+i to auto-format doc)
+
+Anchor Tags:
+- when adding the href hypertext link in an anchor tag, don't forget
+to include the "http://" in the website name. Otherwise the link will 
+look inside your local computer for the doc/file. 
+
+Comments:
+- don't memorize the HTML comment syntax, just remember the shortcut
+to make a comment (ctrl + /)
+
+Image element:
+- same idea with anchor tag except the attribute name is called "src" for source. 
